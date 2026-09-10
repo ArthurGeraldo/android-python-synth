@@ -122,18 +122,19 @@ A estrutura poderá evoluir conforme o desenvolvimento:
 ```text
 python-synth/
 │
-├── main.py
-├── oscillator.py
-├── audio.py
-├── midi.py
-├── envelope.py
-├── config.py
+├── src/
+│   ├── main.py
+│   ├── oscillator.py
+│   ├── audio.py
+│   ├── midi.py
+│   ├── envelope.py
+│   └── config.py
 │
 ├── presets/
 │
 ├── requirements.txt
-│
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 # Status
